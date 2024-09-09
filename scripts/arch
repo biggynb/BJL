@@ -7,13 +7,13 @@ esac
 
 case $(uname -m) in
   aarch64)
-    sh arm64.sh;exit 0
+    sry but your arch is not supported bozo
   ;;
 esac
 
 case $(uname -m) in
   i686)
-    sh x86_64.sh; exit 0
+    sry but your arch is not supported bozo,  try upgrading your sys
   ;;
 esac
 
