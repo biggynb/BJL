@@ -41,7 +41,7 @@ ver_kernel()
 }
 
 # Coreutils first because --version-sort needs Coreutils >= 7.0
-ver_check Coreutils      sort     8.1 || bail "Coreutils too old, stop"
+ver_check Coreutils      sort     8.1 || bail "Coreutils too old - You are using an SERIOUSLY outdated linux, or simply using a mac..."
 ver_check Bash           bash     3.2
 ver_check Binutils       ld       2.13.1
 ver_check Bison          bison    2.7
